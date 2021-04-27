@@ -4,7 +4,7 @@
 
 [Live Page Link]()
 
-![Top notch Coffee Responsive Design](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/responsivedesign.PNG)
+![Top notch Coffee Responsive Design]()
 
 Top Notch Coffee
 
