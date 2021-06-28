@@ -17,24 +17,43 @@ Explore the misterious and amazing world of coffee with us!
 
 ### General User Goals
 •	Users want to easily login anytime, so that I can get access to my saved profile details and make next purchase quicker.
+
 •	Users want to reset my password if I forgot it, so that I can get access to my profile again.
+
 •	Users want to be able to change my password, so that I can create the stronger password (e.g.in case I published my old password somewhere) to protect my personal details.
+
 •	Users want to be able to change my email or add the second email, so that I can have an easier access to the website's functionality and to gain more flexibility.
+
 •	Users want to create my own account, so that I can save, view and edit my profile details and view my order history.
+
 •	Users expect to access the website from any device, so that I can use the website anytime and anywhere.
+
 •	Users expect to easily navigate the website, so that I can quickly find what I'm looking for.
+
 •	Users want to easily access social media links of the company, so that I can read more information about it.
+
 •	Users want to read a summary info about the business, its ideas and benefits, so that I can quickly decide if it is suitable for me.
+
 •	Users want to find an information about the company, to know what they do, what their main principles and ideas
+
 •	Users want to view events that happen in the coffee club this week in Dublin, so that I can come and join any event.
+
 •	Users want to see the location of the Coffee Club.
+
 •	Users want to be able to easily contact the owner/manager of the company, so that I can write an additional query or ask a question.
+
 •	Users want to learn more about different types of coffee ceremonies, culture and history in general.
+
 •	Users want to view service details and product details (e.g. image, price, description), so that I can book/buy some of them.
+
 •	Users want to search and filter the products easily, so that I can quickly find a specific product I am looking for.
+
 •	Users want to view and modify my order in the cart before completing it, so that I can make last changes easily before proceeding to payment.
+
 •	Users want to view a total price of my purchases and delivery cost, so that I will understand and see how much I will be charged.
+
 •	Users expect to make payments by card in a safe and secure way, so that I won't be concerned about the safety of my card details and won't be charged incorrectly.
+
 •	Users want to receive an email confirmation after checkout, so that I can make sure that payment was successful.
 
 
