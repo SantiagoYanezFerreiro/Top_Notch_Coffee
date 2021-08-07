@@ -188,6 +188,10 @@ I used a lot of Coffee/Food images, mainly to make the website look better and a
 ## Features to Implement in the future
 
 
+## Information architechture
+### Database Choice
+### Data Modelling
+
 
 ## Technologies Used
 
