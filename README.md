@@ -77,7 +77,7 @@ I used a lot of Coffee/Food images, mainly to make the website look better and a
 ## Wireframes
 
 I have included all Wireframes in another separate file: 
-![Wireframes File](ReadmeFiles/wireframes.md)
+![Wireframes File](ReadmeFiles/wireframes)
 
 ### Home Page
    
