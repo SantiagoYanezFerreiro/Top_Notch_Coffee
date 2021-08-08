@@ -1,4 +1,4 @@
-![Site Logo](/workspace/Top_Notch_Coffee/static/img/home/logo.PNG)
+![Site Logo](static/img/home/logo.PNG)
 
 [GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/Top_Notch_Coffee)
 
