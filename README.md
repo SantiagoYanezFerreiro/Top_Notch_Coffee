@@ -115,8 +115,13 @@ I have included all Wireframes in another separate file:
 
 ## Information architechture
 ### Database Choice
+
+During the development of the project I worked with sqlite3 database which is installed with Django.
+For production, a PostgreSQL database is provided by Heroku as an add-on.
+
 ### Data Modelling
 
+![Database Schema](static/img/home/DatabaseSchema.PNG)
 
 ## Technologies Used
 
