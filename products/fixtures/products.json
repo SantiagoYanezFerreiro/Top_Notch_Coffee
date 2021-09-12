@@ -1,0 +1,182 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123456",
+        "name": "Caffé Molinare Italian Bio Organic Coffee",
+        "description": "Contains only the best 100% high qualiy organic beans. Won of mutilple international coffee taste and quality awards",
+        "price": 3.90,
+        "category": 2,
+        "rating": 4.9,
+        "image": "img/products/ceylon_op_nuwara_eliya.jpg",
+        "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2017/12/molinari-bio-organic-beans-600x600.png"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123457",
+        "name": "Arabica Coffee Beans",
+        "description": "4 carefully selected blends of high qualiy arabica coffee. This box contains Lavazza La Reserva Tierra Sol, Lavazza La Reserva de Tierra Brasil, Lavazza Top Class Filtro100, Lavazza La Reserva de Tierra Colombia",
+        "price": 50,
+        "category": 10,
+        "rating": 4.8,
+        "image": "img/products/oolong_rose.jpg",
+        "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2019/02/Ethical-Coffee-Beans-Variety-Box-5-300x300.png"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123458",
+        "name": "Colombia - San Pancho",
+        "description": "The most popular coffee from one of the top high quality producing countries. Grown in an archeological UNESCO world heritage site.  Coffee farming within the region is overwhelmingly small-scale. Approximately 80% of producers from the region farm coffee on less than 3 hectares of land. These small farms are tended by individual families with labour only very rarely being contracted out. All cherries are hand-picked, which leads to more thorough and intensive management practices and great pride in the final product .",
+        "price": 15.00,
+        "category": 1,
+        "rating": 4.9,
+        "image": "img/products/home_matcha_kit.jpg",
+        "image_url": "https://threefoolscoffee.ie/wp-content/uploads/2021/06/IMG_20210512_115011-1024x1024.jpg"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123459",
+        "name": "Geisha Mexican Coffee",
+        "description": "Height: 1,300 MASL Drying: Natural in saranda in the sun Cupping score: 86.5 Fragrance: Highlights citrus, ripe fruits and nuts. Aroma: Intense to flowers, honey and citrus. Flavor: Orange, lemon tea and chocolate Aftertaste: Intense notes to citrus and nuts.",
+        "price": 6.00,
+        "category": 4,
+        "rating": 4.1,
+        "image": "img/products/white_peach.jpg",
+        "image_url": "https://i0.wp.com/cafeelgrande.com/wp-content/uploads/2019/10/ara%CC%81bico-geisha.png?fit=549%2C553&ssl=1"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123460",
+        "name": "Gaggia – Cardona Prestige",
+        "description": "100% designed and made in Italy Up to 16 types of coffee and milk-based beverages. Ideal for preparing cappuccinos and lattes. 4 profiles to store your favorite drinks. Removable 0.6 L milk container. Built-in ceramic mill. Pump pressure of 15 bar.",
+        "price": 2.20,
+        "category": 7,
+        "rating": 5.0,
+        "image": "img/products/naked_pu-erh_tea.jpg",
+        "image_url": "https://cafeteina.pe/wp-content/uploads/2021/08/Cadorna-Prestige_Front_BiancoLatte_2019-scaled.jpg"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123461",
+        "name": "Timemore French Press",
+        "description": "French Press Timemore model 3.0 Capacity: 600 ml Material: Borosilicate glass Stainless steel filter temperature from -30 °C to 200 °C",
+        "price": 3.10,
+        "category": 3,
+        "rating": 4.8,
+        "image": "img/products/fresh_green_tea.jpg",
+        "image_url": "https://cafeteina.pe/wp-content/uploads/2021/05/Timemore-Presa-Francesa.jpg"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123462",
+        "name": "Sleep Tea",
+        "description": "A calming sleepytime tea with smooth and minty flavor notes. Guaranted better sleep and improved well being",
+        "price": 3.10,
+        "category": 9,
+        "rating": 4.5,
+        "image": "img/products/sleep_tea.jpg",
+        "image_url": "https://i.ibb.co/nzcP4Wp/sleep-tea.jpg"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123463",
+        "name": "Green Tea Asian Welness",
+        "description": "Superfood blend of Green Tea, tropical fruits, spirulina and aloe vera with a fresh and juicy taste. Blend of exquisite tropical flavor that is complemented by the nutrients of Superfoods and carefully selected tropical fruits, which join the virtues of green tea in an incredibly fresh blend. Drinking a cup of this mixture provides vitamins, proteins, minerals and antioxidants.",
+        "price": 2.00,
+        "category": 8,
+        "rating": 4.5,
+        "image": "img/products/classic_rooibos_tea.jpg",
+        "image_url": "https://dhb3yazwboecu.cloudfront.net/1007/fotosProducto/tes/13142_AsianWellness_1000x1000_l.jpg"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123464",
+        "name": "Miracle Organic Matcha",
+        "description": "The miraculous Japanese ground Green Tea, of ceremonial quality, an elixir of flavor to regenerate you every day with a plus of antioxidants. A wonderful antiage for your daily supply of antioxidants and energy. The fine texture of this bright green powdered tea, its vivid and sweet taste and its limited production elevates it to a category of Japanese Ceremony",
+        "price": 3.90,
+        "category": 6,
+        "rating": 4.2,
+        "image": "img/products/matcha.jpg",
+        "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//75086_OrganicMiracleMatcha30gr_21000X1000_l.jpg"
+      }   
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123465",
+        "name": "Pack Inca Power",
+        "description": "A collection designed with geometric pattern of Inca drawings, perfect for drinking your most summer teas and infusions. The pack includes: - Mug Classic Inca - Inca Round Can - 100g Matcha Gracia Blend Green - Honey with Matcha and lemon",
+        "price": 29,
+        "category": 5,
+        "rating": 4.8,
+        "image": "img/products/chamomile.jpg",
+        "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//Inca-Power_1000x1000px.jpg"
+      }   
+    },
+    {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+        "sku": "AT123466",
+        "name": "Pack Matcha Garden",
+        "description": "A collection designed with a romantic design of brush-painted flowers, perfect for drinking your most summer teas and infusions. The pack includes: - Mug Harmony Garden Breath - Can Garden Breath 100g - Organic Matcha 30g - 100g Beauty Guarana",
+        "price": 25.00,
+        "category": 1,
+        "rating": 4.8,
+        "image": "img/products/iron_tea_pot.jpg",
+        "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//Matcha-Garden_1000x1000px.jpg"
+          }   
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "name": "Gift Card",
+        "description": "The Gift that keeps on gift that keeps on giving. Can be used to gift the best coffee to your loved ones",
+        "price": 50.00,
+        "rating": 5.0,
+        "image": "img/services/tea-ceremony-japaneese.jpg",
+        "image_url": "https://i.ibb.co/r2RJQn6/tea-ceremony-japaneese.jpg"
+      }   
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "name": "Coffee Tasting Box",
+        "description": "Our three most sold grounds in a pack together. Try the best coffees from Brazil, Colombia & Guatemala. These coffees are wonderful on both filter and espresso, firm favorites all round here at Top Notch Coffee!",
+        "price": 75.00,
+        "rating": 4.9,
+        "image": "img/services/chinese-tea-ceremony.jpg",
+        "image_url": "https://threefoolscoffee.ie/wp-content/uploads/2021/06/IMG_20210609_114935-1024x1024.jpg"
+    }
+}
+]
+
+
