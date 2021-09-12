@@ -4,7 +4,7 @@
       "model": "products.category",
       "fields": {
         "name": "coffee",
-        "friendly_name": "Teaware"
+        "friendly_name": "Coffee"
       }
     },
     {
@@ -12,7 +12,7 @@
       "model": "products.category",
       "fields": {
         "name": "sustainable_coffee",
-        "friendly_name": "Black Tea"
+        "friendly_name": "SustainableCoffee"
       }
     },
     {
@@ -20,7 +20,7 @@
       "model": "products.category",
       "fields": {
         "name": "coffee_accessories",
-        "friendly_name": "Green Tea"
+        "friendly_name": "Coffeeware"
       }
     },
     {
@@ -28,7 +28,7 @@
       "model": "products.category",
       "fields": {
         "name": "barista_supplies",
-        "friendly_name": "White Tea"
+        "friendly_name": "BaristaSupplies"
       }
     },
     {
@@ -36,7 +36,7 @@
       "model": "products.category",
       "fields": {
         "name": "tea",
-        "friendly_name": "Herbal Tea"
+        "friendly_name": "Tea"
       }
     },
     {
@@ -44,7 +44,7 @@
       "model": "products.category",
       "fields": {
         "name": "chocolate",
-        "friendly_name": "Matcha"
+        "friendly_name": "Chocolate"
       }
     },
     {
@@ -52,7 +52,7 @@
       "model": "products.category",
       "fields": {
         "name": "bundles",
-        "friendly_name": "Pu Erh Tea"
+        "friendly_name": "Bundle"
       }
     },
     {
@@ -60,7 +60,7 @@
       "model": "products.category",
       "fields": {
         "name": "sale",
-        "friendly_name": "Rooibos Tea"
+        "friendly_name": "Sale"
       }
     }
   ]
