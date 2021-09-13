@@ -21,7 +21,7 @@
         "name": "Arabica Coffee Beans",
         "description": "4 carefully selected blends of high qualiy arabica coffee. This box contains Lavazza La Reserva Tierra Sol, Lavazza La Reserva de Tierra Brasil, Lavazza Top Class Filtro100, Lavazza La Reserva de Tierra Colombia",
         "price": 50,
-        "category": 10,
+        "category": 2,
         "rating": 4.8,
         "image": "img/products/oolong_rose.jpg",
         "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2019/02/Ethical-Coffee-Beans-Variety-Box-5-300x300.png"
@@ -91,7 +91,7 @@
         "name": "Sleep Tea",
         "description": "A calming sleepytime tea with smooth and minty flavor notes. Guaranted better sleep and improved well being",
         "price": 3.10,
-        "category": 9,
+        "category": 5,
         "rating": 4.5,
         "image": "img/products/sleep_tea.jpg",
         "image_url": "https://i.ibb.co/nzcP4Wp/sleep-tea.jpg"
