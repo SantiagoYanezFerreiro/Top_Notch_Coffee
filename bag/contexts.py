@@ -1,4 +1,4 @@
-from decimal import DEcimal
+from decimal import Decimal
 
 def bag_contents(request):
 
