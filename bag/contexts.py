@@ -6,7 +6,7 @@ def bag_contents(request):
     total = 0
     product_count = 0
 
-    if total < settings.FREE_DELIVERY_TRESHOULD
+    if total < settings.FREE_DELIVERY_TRESHOULD:
         delivery = total * Decimal (settings.STANDARD_DELIVERY_PERCENTAGE / 100)
         free_delivery_delta = settings.FREE_DELIVERY_TRESHOULD  - total
     else:
