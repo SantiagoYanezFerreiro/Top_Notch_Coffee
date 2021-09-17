@@ -9,7 +9,7 @@
         "price": 3.90,
         "category": 2,
         "rating": 4.9,
-        "image": "img/products/caffemolinari.png",
+        "image": "caffemolinari.png",
         "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2017/12/molinari-bio-organic-beans-600x600.png"
       }
     },
@@ -23,7 +23,7 @@
         "price": 50,
         "category": 2,
         "rating": 4.8,
-        "image": "img/products/arabicacoffeebeans.png",
+        "image": "arabicacoffeebeans.png",
         "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2019/02/Ethical-Coffee-Beans-Variety-Box-5-300x300.png"
       }
     },
@@ -37,7 +37,7 @@
         "price": 15.00,
         "category": 1,
         "rating": 4.9,
-        "image": "img/products/home_matcha_kit.jpg",
+        "image": "home_matcha_kit.jpg",
         "image_url": "https://threefoolscoffee.ie/wp-content/uploads/2021/06/IMG_20210512_115011-1024x1024.jpg"
       }
     },
@@ -51,7 +51,7 @@
         "price": 6.00,
         "category": 4,
         "rating": 4.1,
-        "image": "img/products/geishamexicancoffee.webp",
+        "image": "geishamexicancoffee.webp",
         "image_url": "https://i0.wp.com/cafeelgrande.com/wp-content/uploads/2019/10/ara%CC%81bico-geisha.png?fit=549%2C553&ssl=1"
       }
     },
@@ -65,7 +65,7 @@
         "price": 2.20,
         "category": 7,
         "rating": 5.0,
-        "image": "img/products/cadornaprestigecoffeemachine.jpg",
+        "image": "cadornaprestigecoffeemachine.jpg",
         "image_url": "https://cafeteina.pe/wp-content/uploads/2021/08/Cadorna-Prestige_Front_BiancoLatte_2019-scaled.jpg"
       }
     },
@@ -79,7 +79,7 @@
         "price": 3.10,
         "category": 3,
         "rating": 4.8,
-        "image": "img/products/timemorefrenchpress.jpg",
+        "image": "timemorefrenchpress.jpg",
         "image_url": "https://cafeteina.pe/wp-content/uploads/2021/05/Timemore-Presa-Francesa.jpg"
       }
     },
@@ -93,7 +93,7 @@
         "price": 3.10,
         "category": 5,
         "rating": 4.5,
-        "image": "img/products/sleeptea.jpg",
+        "image": "sleeptea.jpg",
         "image_url": "https://i.ibb.co/nzcP4Wp/sleep-tea.jpg"
       }
     },
@@ -107,7 +107,7 @@
         "price": 2.00,
         "category": 8,
         "rating": 4.5,
-        "image": "img/products/greenteaasianwellness.jpg",
+        "image": "greenteaasianwellness.jpg",
         "image_url": "https://dhb3yazwboecu.cloudfront.net/1007/fotosProducto/tes/13142_AsianWellness_1000x1000_l.jpg"
       }
     },
@@ -121,7 +121,7 @@
         "price": 3.90,
         "category": 6,
         "rating": 4.2,
-        "image": "img/products/miracleorganicmatcha.jpg",
+        "image": "miracleorganicmatcha.jpg",
         "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//75086_OrganicMiracleMatcha30gr_21000X1000_l.jpg"
       }   
     },
@@ -135,7 +135,7 @@
         "price": 29,
         "category": 5,
         "rating": 4.8,
-        "image": "img/products/packincapower.jpg",
+        "image": "packincapower.jpg",
         "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//Inca-Power_1000x1000px.jpg"
       }   
     },
@@ -149,7 +149,7 @@
         "price": 25.00,
         "category": 1,
         "rating": 4.8,
-        "image": "img/products/packmatchagarden.jpg",
+        "image": "packmatchagarden.jpg",
         "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//Matcha-Garden_1000x1000px.jpg"
           }   
     },
@@ -161,7 +161,7 @@
         "description": "The Gift that keeps on gift that keeps on giving. Can be used to gift the best coffee to your loved ones",
         "price": 50.00,
         "rating": 5.0,
-        "image": "img/services/giftcard.jpg",
+        "image": "giftcard.jpg",
         "image_url": "https://i.ibb.co/r2RJQn6/tea-ceremony-japaneese.jpg"
       }   
     },
@@ -173,7 +173,7 @@
         "description": "Our three most sold grounds in a pack together. Try the best coffees from Brazil, Colombia & Guatemala. These coffees are wonderful on both filter and espresso, firm favorites all round here at Top Notch Coffee!",
         "price": 75.00,
         "rating": 4.9,
-        "image": "img/services/coffeetastingbox.jpg",
+        "image": "coffeetastingbox.jpg",
         "image_url": "https://threefoolscoffee.ie/wp-content/uploads/2021/06/IMG_20210609_114935-1024x1024.jpg"
     }
 }
