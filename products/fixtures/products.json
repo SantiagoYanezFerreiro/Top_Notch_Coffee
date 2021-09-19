@@ -63,7 +63,7 @@
         "name": "Gaggia – Cardona Prestige",
         "description": "100% designed and made in Italy Up to 16 types of coffee and milk-based beverages. Ideal for preparing cappuccinos and lattes. 4 profiles to store your favorite drinks. Removable 0.6 L milk container. Built-in ceramic mill. Pump pressure of 15 bar.",
         "price": 2.20,
-        "category": 7,
+        "category": 4,
         "rating": 5.0,
         "image": "img/products/cadornaprestigecoffeemachine.jpg",
         "image_url": "https://cafeteina.pe/wp-content/uploads/2021/08/Cadorna-Prestige_Front_BiancoLatte_2019-scaled.jpg"
@@ -119,7 +119,7 @@
         "name": "Miracle Organic Matcha",
         "description": "The miraculous Japanese ground Green Tea, of ceremonial quality, an elixir of flavor to regenerate you every day with a plus of antioxidants. A wonderful antiage for your daily supply of antioxidants and energy. The fine texture of this bright green powdered tea, its vivid and sweet taste and its limited production elevates it to a category of Japanese Ceremony",
         "price": 3.90,
-        "category": 6,
+        "category": 5,
         "rating": 4.2,
         "image": "img/products/miracleorganicmatcha.jpg",
         "image_url": "https://dhb3yazwboecu.cloudfront.net/1007//75086_OrganicMiracleMatcha30gr_21000X1000_l.jpg"
@@ -160,6 +160,7 @@
         "name": "Gift Card",
         "description": "The Gift that keeps on gift that keeps on giving. Can be used to gift the best coffee to your loved ones",
         "price": 50.00,
+        "category": 7,
         "rating": 5.0,
         "image": "img/products/giftcard.jpg",
         "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.csgSw9zGrBvrC9-ds6nVXwHaFg%26pid%3DApi&f=1"
@@ -172,6 +173,7 @@
         "name": "Coffee Tasting Box",
         "description": "Our three most sold grounds in a pack together. Try the best coffees from Brazil, Colombia & Guatemala. These coffees are wonderful on both filter and espresso, firm favorites all round here at Top Notch Coffee!",
         "price": 75.00,
+        "category": 7,
         "rating": 4.9,
         "image": "img/products/coffeetastingbox.jpg",
         "image_url": "https://threefoolscoffee.ie/wp-content/uploads/2021/06/IMG_20210609_114935-1024x1024.jpg"
