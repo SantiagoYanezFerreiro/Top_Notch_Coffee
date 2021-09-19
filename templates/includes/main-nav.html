@@ -17,9 +17,9 @@
                 Coffee
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=Coffee" class="dropdown-item">Year-Round Coffee</a>
-                <a href="{% url 'products' %}?category=SustainableCoffee" class="dropdown-item">Sustainable Coffee</a>
-                <a href="{% url 'products' %}?category=Coffee,SustainableCoffee" class="dropdown-item">All Coffee</a>
+                <a href="{% url 'products' %}?category=coffee" class="dropdown-item">Year-Round Coffee</a>
+                <a href="{% url 'products' %}?category=sustainable_coffee" class="dropdown-item">Sustainable Coffee</a>
+                <a href="{% url 'products' %}?category=coffee,sustainable_coffee" class="dropdown-item">All Coffee</a>
             </div>
         </li>
 
@@ -28,9 +28,9 @@
                 Coffeeware & Barista Supplies
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Cofeeware</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Barista Supplies</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">Coffeeware & BS</a>
+                <a href="{% url 'products' %}?category=coffee_accessories" class="dropdown-item">Cofeeware</a>
+                <a href="{% url 'products' %}?category=barista_supplies" class="dropdown-item">Barista Supplies</a>
+                <a href="{% url 'products' %}?category=coffee_accessories,barista_supplies" class="dropdown-item">Coffeeware & BS</a>
             </div>
         </li>
 
@@ -39,8 +39,8 @@
                 Tea & Others
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=Tea" class="dropdown-item">Tea</a>
-                <a href="{% url 'products' %}?category=Chocolate" class="dropdown-item">Chocolate</a>
+                <a href="{% url 'products' %}?category=tea" class="dropdown-item">Tea</a>
+                <a href="{% url 'products' %}?category=chocolate" class="dropdown-item">Chocolate</a>
             </div>
         </li>
 
@@ -49,9 +49,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=Bundles" class="dropdown-item">Bundles</a>
-                <a href="{% url 'products' %}?category=Sale" class="dropdown-item">Sale</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=bundles" class="dropdown-item">Bundles</a>
+                <a href="{% url 'products' %}?category=sale" class="dropdown-item">Sale</a>
+                <a href="{% url 'products' %}?category=bundles,sale" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
