@@ -113,16 +113,18 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'top_notch_coffee.wsgi.application'
 
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-#DATABASES = {
-#   'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
 
 DATABASES = {
     'default': dj_database_url.parse('postgres://ncbmiedihczbqf:77b2a987952fe8c9b1da8c0ef9f42ad3d56aa3da84dc6a720c4555fefe466a75@ec2-54-220-195-236.eu-west-1.compute.amazonaws.com:5432/dfaivgbrigj9bk')
