@@ -36,10 +36,10 @@ def contact(request):
         # Attempt to prefill full_name and email fields for logged in user, if they have
         # this information saved in the profile
         if request.user.is_authenticated:
-            profile = Profile.objects.get(user=request.user)
-            user_email = profile.user.email
+            userprofile = UserProfile.objects.get(user=request.user)
+            user_email = userprofile.user.email
             contact_form = ContactForm(initial={
-                'full_name': profile.profile_full_name,
+                'full_name': userprofile.profile_full_name,
                 'email': user_email,
                 })
         else:
