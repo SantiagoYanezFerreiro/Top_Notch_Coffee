@@ -54,9 +54,14 @@
                 <a href="{% url 'products' %}?category=bundles,sale" class="dropdown-item">All Specials</a>
             </div>
         </li>
-        <li class="nav-item nav-item-header mr-5">
-            <a class="nav-link nav-link-header uppercase text-white {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
                 href="{% url 'contact' %}">Contact
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
+                href="{% url 'about' %}">About Us
             </a>
         </li>
     </ul>
