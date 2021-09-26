@@ -5,7 +5,7 @@ from django.core.mail import send_mail, BadHeaderError
 from django.conf import settings
 from django.http import HttpResponse
 from .forms import ContactForm
-from profiles.models import Profile
+from profiles.models import UserProfile
 
 
 
