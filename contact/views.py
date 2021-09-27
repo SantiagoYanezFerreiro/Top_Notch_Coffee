@@ -47,7 +47,6 @@ def contact(request):
 
     context = {
         'contact_form': contact_form,
-        'api_key': settings.GOOGLE_MAP_API_KEY,
     }
 
     return render(request, 'contact/contact.html', context)
