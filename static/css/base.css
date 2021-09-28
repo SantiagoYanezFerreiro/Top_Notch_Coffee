@@ -61,6 +61,11 @@ body {
     color: white;
 }
 
+.img-fluid{
+    max-width: 800px;
+    height:600px;
+}
+
 .text-black {
     color: #000 !important;
 }
