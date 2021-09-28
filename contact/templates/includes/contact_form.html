@@ -1,9 +1,9 @@
-<div class="col-12 col-lg-6 mb-5 d-none d-lg-block">
-    <img src="{{ STATIC_URL }}img/girl-and-letter-graphic-img.png" class="img-fluid"
+<div class="col-12 col-lg-6 mb-5 d-none d-lg-block mt-5">
+    <img src="../{{ STATIC_URL }}/static/img/home/coffee8.jpg" class="img-fluid"
          alt="girl-and-letter-graphic-img">
 </div>
 
-<div class="col-12 col-lg-6 mb-5 shadow p-4 rounded-lg">
+<div class="col-12 col-lg-6 mb-5 shadow p-4 rounded-lg mt-5">
     <p>Please fill out the form regarding your query and we will answer to you asap. Thank you!</p>
     <form method="POST" action="{% url 'contact' %}">
         {% csrf_token %}

@@ -1,16 +1,9 @@
-{% extends "base.html" %}
+{% extends "base.html"%}
 {% load static %}
+{% block extra_title %}- Home{% endblock %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+{% block content%}
 
-{% endblock %}
-
-{% block content %}
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
@@ -25,4 +18,25 @@
             </div>
         </div>
     </div>
-{% endblock %} 
+
+<!--Main Image and Buttons section-->
+{% include 'home/includes/main_image_and_buttons.html' %}
+
+<!--Quote section-->
+{% include 'home/includes/quote_section.html' %}
+
+<!--Company Info section-->
+{% include 'home/includes/companyinfo.html' %}
+
+<!--Benefits section-->
+{% include 'home/includes/benefits_section.html' %}
+
+<!--Shop section-->
+{% include 'home/includes/shop_section.html' %}
+
+<!--Review section-->
+{% include 'home/includes/reviews_section.html' %}
+
+
+
+{% endblock %}
