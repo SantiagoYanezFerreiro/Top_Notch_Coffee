@@ -190,25 +190,30 @@ input[name='q']::placeholder {
     font-size: 1rem;
 }
 
-/* Landing page - benifits section*/
-.span-benifits {
+/* Landing page - benefits section*/
+.span-benefits {
     letter-spacing: 0.3rem;
     background: var(--white);
     font-family: var(--sawarabi-mincho);
     border: 2px solid var(--black);
 }
 
-.span-benifits-container {
+.span-benefits-container {
     margin-top: -1rem;
 }
 
-.benifits-section {
+.benefits-section {
     overflow-x: hidden;
     overflow-y: hidden;   
 }
 
-.benifits-paragraph {
+.benefits-paragraph {
     font-size: 1.1rem;
+}
+
+.benefits-section img{
+    width:100px;
+    height:100px;
 }
 
 /*Landing page - Tea ceremony section*/
