@@ -140,7 +140,7 @@ input[name='q']::placeholder {
 
 .hero-image {
     height: 80vh;
-    background: url('/static/img/home/coffee3.jpg') no-repeat center top fixed;
+    background: url('/media/coffee3.jpg') no-repeat center top fixed;
     background-size: cover;
 }
 
@@ -193,7 +193,7 @@ input[name='q']::placeholder {
 .quote-section {
     padding-top:150px;
     min-height: 50vh;
-    background: url('/static/img/home/coffee5.jpg') no-repeat center center fixed;
+    background: url('/media/coffee5.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     opacity: 0.9;
