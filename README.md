@@ -165,6 +165,8 @@ For production, a PostgreSQL database is provided by Heroku as an add-on.
 The code was validated with the W3C Markup, W3C CSS and JSHint Validator Services to look for syntax errors.
 The website passed all tests succesfully with no errors. An excel file with info about the tests performed was included in the repository.
 
+Testing File Attached
+
 ### High Level Test Classes
 ![High Level Test Classes]()
 
