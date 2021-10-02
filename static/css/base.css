@@ -140,7 +140,7 @@ input[name='q']::placeholder {
 
 .hero-image {
     height: 80vh;
-    background: url('/media/coffee3.jpg') no-repeat center top fixed;
+    background: url('/media/img/content/coffee3.jpg') no-repeat center top fixed;
     background-size: cover;
 }
 
