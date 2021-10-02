@@ -10,6 +10,9 @@ body {
     font-family: 'Lato';
 }
 
+.header{
+    margin-bottom:300px;
+}
 /* from Bulma */
 .icon {
     align-items: center;
@@ -343,8 +346,9 @@ input[name='q']::placeholder {
 
 /* Allauth form formatting */
 
+
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
+    margin-top: 1.5rem; 
     color: #6c757d; /* text-secondary */
 }
 

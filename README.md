@@ -1,8 +1,8 @@
-![Site Logo](static/img/home/logo.PNG)
+![Site Logo](media/img/content/logo.PNG)
 
 [GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/Top_Notch_Coffee)
 
-[Live Page Link]()
+[Live Page Link](https://topnotchcoffee.herokuapp.com/)
 
 ![Top notch Coffee Responsive Design]()
 
@@ -75,7 +75,7 @@ Explore the misterious and amazing world of coffee with us!
 
 ### Imagery
 
-I used a lot of Coffee/Food images, mainly to make the website look better and as background for the content.
+I used a lot of Beverages images, mainly to make the website look better and as background for the content.
 
 ## Wireframes
 
@@ -124,7 +124,7 @@ For production, a PostgreSQL database is provided by Heroku as an add-on.
 
 ### Data Modelling
 
-![Database Schema](static/img/home/DatabaseSchema.PNG)
+![Database Schema](media/img/content/DatabaseSchema-updated.PNG)
 
 ## Technologies Used
 
@@ -168,13 +168,14 @@ The website passed all tests succesfully with no errors. An excel file with info
 Testing File Attached
 
 ### High Level Test Classes
-![High Level Test Classes]()
+![Test Results File](media/files/TestResultsMS4.xlsx)
 
 ### User Story Testing 
 #### Visitors Goals
 
 ### Test Results
-![Test Results]()
+
+![Test Results File](media/files/TestResultsMS4.xlsx)
 
 Complete Test Info can be found here ()
 
