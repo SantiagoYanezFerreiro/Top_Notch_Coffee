@@ -142,7 +142,7 @@ input[name='q']::placeholder {
 
 .hero-image {
     height: 80vh;
-    background: url('/media/img/content/coffee3.jpg') no-repeat center top fixed;
+    background: url('/media/img/content/coffee3.jpg') no-repeat left bottom fixed;
     background-size: cover;
 }
 
@@ -153,6 +153,12 @@ input[name='q']::placeholder {
     left:40%;
     transform: translateY(-50%);
     font-family: var(--marko-one);
+    text-shadow: white 0px 0px 10px;
+}
+
+.landing-text h5, .landing-text a{
+    font-weight:700px;
+    font-size:120%;
 }
 
 .landing-main-heading {
@@ -161,10 +167,12 @@ input[name='q']::placeholder {
 }
 
 .landing-button, .companyinfo-button, .button-shop {
-    background-color: transparent;
+    background-color: black;
     color: var(--white);
     border: 4px solid black;
     font-family: var(--sawarabi-mincho);
+    color:white;
+    font-size:120%;
     height: 3.5rem;
     width: 15rem;
 }
@@ -172,7 +180,6 @@ input[name='q']::placeholder {
 .companyinfo-button{
     position:absolute;
     left:30%;
-    color:black;
 }
 
 .landing-button:hover {
@@ -244,18 +251,15 @@ input[name='q']::placeholder {
     background-color: var(--black);
 }
 
-
 /*Landing page - Tea and teaware section*/
 .tea-and-teaware-landing-container {
     background-color: var(--white);
 }
 
-/*Landing page - Events section*/
-.events-container-landing {
-    overflow-x: hidden; 
-    overflow-y: hidden;
+/*Carrousel*/
+.photo-carrousel{
+    height:950px;
 }
-
 /*Landing page - reviews section*/
 .review-user-avatar {
     vertical-align: middle;
