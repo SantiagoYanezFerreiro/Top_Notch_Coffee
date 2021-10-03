@@ -335,6 +335,16 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+.spacer{
+    width: 100%;
+    height: 500px;
+}
+
+.allauth-form-inner-content {
+    margin-bottom:200px;
+}
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
