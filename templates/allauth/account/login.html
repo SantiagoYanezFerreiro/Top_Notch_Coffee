@@ -8,13 +8,13 @@
 {% block inner_content %}
 
 <hr>
-<h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
+<h2 class="logo-font mb-4 center">{% trans "Sign In" %}</h2>
 <hr>
 
 {% get_providers as socialaccount_providers %}
 
 {% if socialaccount_providers %}
-<p>{% blocktrans with site.name as site_name %}Please sign in with one
+<p class="center">{% blocktrans with site.name as site_name %}Please sign in with one
 of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
 for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
 
