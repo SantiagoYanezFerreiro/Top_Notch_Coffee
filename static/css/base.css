@@ -217,7 +217,9 @@ input[name='q']::placeholder {
 }
 
 .blockquote {
-    font-size: 1rem;
+    margin-right:10%;
+    margin-left:10%;
+    font-size: 1.3rem;
 }
 
 /* Landing page - benefits section*/
