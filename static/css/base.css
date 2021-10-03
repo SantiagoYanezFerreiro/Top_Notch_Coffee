@@ -289,6 +289,17 @@ input[name='q']::placeholder {
     padding: 0 10%;
 }
 
+/* About Page */
+
+.our-principles li, .our-mission li, .our-mission p, .who-we-are p {
+    font-size:25px;
+}
+
+.our-mission h3, .our-principles h3, .who-we-are h3{
+    font-size:35px;
+}
+
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
