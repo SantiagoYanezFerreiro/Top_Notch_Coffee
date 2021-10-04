@@ -298,6 +298,17 @@ input[name='q']::placeholder {
     font-size:35px;
 }
 
+/* Contact Page */
+
+.form-img{
+    max-width:600px;
+}
+.contact-form{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -363,9 +374,6 @@ input[name='q']::placeholder {
     margin-bottom:200px;
 }
 
-.contact-form{
-    max-width:500px;
-}
 
 /* -------------------------------- Media Queries */
 
@@ -477,6 +485,13 @@ input[name='q']::placeholder {
     .hero-image .sub-heading{
         font-size:150%;
     }
+    .form-img{
+        max-width:400px;
+    }
+    .contact-form{
+        margin-left:15%;
+        margin-right:15%;
+    }
   }
 
 /* fixed top navbar only on medium and up */
@@ -491,9 +506,6 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 164px;
-    }
-    .form-img{
-        max-width:500px;
     }
 }
 
@@ -545,6 +557,7 @@ input[name='q']::placeholder {
     .landing-text {
         left:25%;
     }
+    
 }
     @media (max-width: 800px) {
     .landing-text {

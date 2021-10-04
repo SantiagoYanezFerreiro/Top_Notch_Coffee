@@ -1,18 +1,20 @@
-<div class="col-12 col-xl-6 mt-5">
-    <img src="{{ MEDIA_URL }}img/content/coffee8.jpg" class="img-fluid form-img"
-         alt="coffee-img">
-</div>
+<div class="row">
+    <div class="col-12 col-xl-6 mt-5">
+        <img src="{{ MEDIA_URL }}img/content/coffee8.jpg" class="img-fluid form-img"
+            alt="coffee-img">
+    </div>
 
-<div class="col-12 col-xl-6 mt-5">
-    <p>Please fill out the form regarding your query and we will answer to you asap. Thank you!</p>
-    <form method="POST" action="{% url 'contact' %}" class="contact-form">
-        {% csrf_token %}
-        {{ contact_form|crispy }}
-        <div class="text-center mb-2 mt-4">
-            <button type="submit" id="contact-form-btn" 
-                    class="btn button-green  uppercase w-100">
-                <i class="fas fa-paper-plane mr-2"></i>&nbsp;Send
-            </button>
-        </div>
-    </form>
+    <div class="col-12 col-xl-6 mt-5">
+        <p>Please fill out the form regarding your query and we will answer to you asap. Thank you!</p>
+        <form method="POST" action="{% url 'contact' %}" class="contact-form">
+            {% csrf_token %}
+            {{ contact_form|crispy }}
+            <div class="text-center mb-2 mt-4">
+                <button type="submit" id="contact-form-btn" 
+                        class="btn button-green  uppercase w-100">
+                    <i class="fas fa-paper-plane mr-2"></i>&nbsp;Send
+                </button>
+            </div>
+        </form>
+    </div>
 </div>
