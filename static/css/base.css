@@ -363,6 +363,10 @@ input[name='q']::placeholder {
     margin-bottom:200px;
 }
 
+.contact-form{
+    max-width:500px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
