@@ -1,9 +1,9 @@
-<div class="col-12 col-lg-6 mb-5 d-none d-lg-block mt-5">
-    <img src="{{ MEDIA_URL }}img/content/coffee8.jpg" class="img-fluid"
+<div class="col-12 col-xl-6 mt-5">
+    <img src="{{ MEDIA_URL }}img/content/coffee8.jpg" class="img-fluid form-img"
          alt="coffee-img">
 </div>
 
-<div class="col-12 offset-lg-1 col-lg-4 mb-5 shadow p-4 rounded-lg mt-5">
+<div class="col-12 col-xl-6 mt-5">
     <p>Please fill out the form regarding your query and we will answer to you asap. Thank you!</p>
     <form method="POST" action="{% url 'contact' %}">
         {% csrf_token %}

@@ -139,7 +139,6 @@ input[name='q']::placeholder {
 
 /* Landing page - hero image section*/
 
-
 .hero-image {
     height: 80vh;
     background: url('/media/img/content/coffee3.jpg') no-repeat left bottom fixed;
@@ -299,7 +298,6 @@ input[name='q']::placeholder {
     font-size:35px;
 }
 
-
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -364,7 +362,6 @@ input[name='q']::placeholder {
 .allauth-form-inner-content {
     margin-bottom:200px;
 }
-
 
 /* -------------------------------- Media Queries */
 
@@ -458,6 +455,25 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+@media (max-width: 1300px) {
+    .container {
+      max-width: 80%;
+    }
+    .hero-image {
+        height: 40vh;
+    }
+    
+    .landing-text {
+        top: 30%;
+        left:30%;
+    }
+    .landing-text h5, .landing-text a{
+        font-size:120%;
+    }
+    .hero-image .sub-heading{
+        font-size:150%;
+    }
+  }
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -471,6 +487,9 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 164px;
+    }
+    .form-img{
+        max-width:500px;
     }
 }
 
@@ -519,4 +538,24 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+    .landing-text {
+        left:25%;
+    }
+}
+    @media (max-width: 800px) {
+    .landing-text {
+        left:15%;
+    }
+
+    @media (max-width: 600px) {
+          .landing-text {
+              left:10%;
+          }
+          .landing-text h5, .landing-text a{
+              font-size:120%;
+          }
+          .hero-image .sub-heading{
+              font-size:150%;
+          }
+        }
 }
