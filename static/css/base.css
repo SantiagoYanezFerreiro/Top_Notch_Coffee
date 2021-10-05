@@ -74,6 +74,10 @@ body {
     height:600px;
 }
 
+.coffeeimg9{
+    min-width:600px;
+}
+
 .text-black {
     color: #000 !important;
 }
@@ -302,6 +306,7 @@ input[name='q']::placeholder {
 /* Contact Page */
 
 .form-img{
+    min-width:500px;
     max-width:600px;
 }
 .contact-form{
@@ -493,7 +498,18 @@ input[name='q']::placeholder {
         margin-left:15%;
         margin-right:15%;
     }
-  }
+    .our-mission h3, .our-principles h3, .who-we-are h3{
+        font-size:20px;
+        margin-top:-30px;
+    }
+    .our-principles li, .our-mission li, .our-mission p, .who-we-are p {
+        font-size:16px;
+    }
+    .our-mission img, .our-principles img, .who-we-are img{
+        max-width: 500px;
+        height:500px;
+    }
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
