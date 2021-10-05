@@ -168,7 +168,7 @@ The website passed all tests succesfully with no errors. An excel file with info
 Testing File Attached
 
 ### High Level Test Classes
-![Test Results File](media/files/TestResultsMS4.xlsx)
+![Test Results File](media/img/content/TestResults.PNG)
 
 ### User Story Testing 
 #### Visitors Goals
