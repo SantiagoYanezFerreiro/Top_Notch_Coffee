@@ -116,10 +116,12 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'top_notch_coffee.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
+    print("loading postgres db....")
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
+    print("loading local db ...")
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
