@@ -116,19 +116,19 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'top_notch_coffee.wsgi.application'
 
+
 if 'DATABASE_URL' in os.environ:
     print("loading postgres db....")
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+   } else:
+   print("loading local db ...")
+   DATABASES = {
+         'default': {
+             'ENGINE': 'django.db.backends.sqlite3',
+             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-else:
-    print("loading local db ...")
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+}
 
 
 # Password validation
@@ -220,3 +220,5 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

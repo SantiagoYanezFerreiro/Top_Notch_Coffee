@@ -306,7 +306,7 @@ input[name='q']::placeholder {
 /* Contact Page */
 
 .form-img{
-    min-width:500px;
+    min-width:600px;
     max-width:600px;
 }
 .contact-form{
@@ -314,7 +314,12 @@ input[name='q']::placeholder {
     margin-right:25%;
 }
 
+/* About Us */
 
+.our-mission img, .our-principles img, .who-we-are img{
+    max-width: 600px;
+    height:600px;
+}
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -380,15 +385,6 @@ input[name='q']::placeholder {
     margin-bottom:200px;
 }
 
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
 /* Allauth form formatting */
 
@@ -472,6 +468,58 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+/*MEDIA QUERIES*/
+/*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
+
+@media only screen and (max-width:1600px) {
+    .our-mission img, .our-principles img, .who-we-are img{
+        max-width: 500px;
+}
+    .our-principles img{
+        margin-right:10px;
+}
+}
+
+
+@media only screen and (max-width:1200px) {
+    
+    }
+    }
+  
+    /*Small tablets to big tablets - from 768px to 1023px  */
+    
+  @media only screen and (max-width:1023px) {
+    
+    }
+
+  
+  @media only screen and (max-width:900px) {
+     
+  }
+
+  
+    /*Small phones to small tablets - from 481 to 767 px  */
+    
+  @media only screen and (max-width: 767px) {
+    }
+  
+  
+  
+  /*Small phones - from 0 to 480 px  */
+  @media only screen and (max-width:480px) {
+  
+  }
+  
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
 
 @media (max-width: 1300px) {
     .container {

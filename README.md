@@ -196,6 +196,8 @@ It is an .xlsx file and will a compatible program like excel or google docs to o
 
 #### Known Bugs  & Problems 
 
+•	I struggled dealing with so many keys that shouldnt be exposed publicly. There was an issue and my env.py file was exposed temporally on the public repo involuntariy. Managed to sorted it out after a while and hide it.
+•   Also accidentally pushed my Database_URL on the repo. I initally didn't know that it was supposed to be hidden as well.
 
 ## Deployment
 
