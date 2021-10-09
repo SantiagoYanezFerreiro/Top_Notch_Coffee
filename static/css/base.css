@@ -13,6 +13,10 @@ body {
 .header{
     margin-bottom:300px;
 }
+
+h1{
+    margin-top:30px;
+}
 /* from Bulma */
 .icon {
     align-items: center;
@@ -380,17 +384,13 @@ input[name='q']::placeholder {
     width:250px;
 }
 
-.allauth-form-inner-content {
-    margin-bottom:200px;
-}
-
-
-/* Allauth form formatting */
+/* Allauth form formatting 
 
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; 
-    color: #6c757d; /* text-secondary */
+    color: #6c757d;
+    margin-bottom:200px;
 }
 
 .allauth-form-inner-content input {
@@ -408,7 +408,7 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
+
 	display: inline-block;
     font-weight: 400;
     color: #fff;
@@ -425,7 +425,7 @@ input[name='q']::placeholder {
     line-height: 1.5;
     border-radius: 0;
 
-    /* standard bootstrap btn transitions */
+
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
@@ -437,8 +437,9 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #17a2b8; 
 }
+*/
 
 /* Product Form */
 
