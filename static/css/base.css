@@ -70,7 +70,7 @@ body {
 }
 
 .img-fluid{
-    max-width: 800px;
+    width: 800px;
     height:600px;
 }
 
@@ -306,8 +306,7 @@ input[name='q']::placeholder {
 /* Contact Page */
 
 .form-img{
-    min-width:600px;
-    max-width:600px;
+    width:600px;
 }
 .contact-form{
     margin-left:25%;
@@ -317,7 +316,7 @@ input[name='q']::placeholder {
 /* About Us */
 
 .our-mission img, .our-principles img, .who-we-are img{
-    max-width: 600px;
+    width: 600px;
     height:600px;
 }
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -474,7 +473,7 @@ input[name='q']::placeholder {
 
 @media only screen and (max-width:1600px) {
     .our-mission img, .our-principles img, .who-we-are img{
-        max-width: 500px;
+        width: 500px;
 }
     .our-principles img{
         margin-right:10px;
@@ -554,7 +553,7 @@ input[name='q']::placeholder {
         font-size:16px;
     }
     .our-mission img, .our-principles img, .who-we-are img{
-        max-width: 500px;
+        width: 500px;
         height:500px;
     }
 }
