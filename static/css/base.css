@@ -540,7 +540,7 @@ input[name='q']::placeholder {
         font-size:150%;
     }
     .form-img{
-        max-width:400px;
+        width:400px;
     }
     .contact-form{
         margin-left:15%;

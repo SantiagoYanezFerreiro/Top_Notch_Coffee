@@ -10,7 +10,7 @@
         "category": 2,
         "rating": 4.9,
         "image": "img/products/caffemolinari.png",
-        "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2017/12/molinari-bio-organic-beans-600x600.png"
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Feb%2F18%2F5a%2Feb185a2d1ca4433a17429606207b97b6.jpg&f=1&nofb=1"
       }
     },
     {
@@ -19,12 +19,12 @@
       "fields": {
         "sku": "AT123457",
         "name": "Arabica Coffee Beans",
-        "description": "4 carefully selected blends of high qualiy arabica coffee. This box contains Lavazza La Reserva Tierra Sol, Lavazza La Reserva de Tierra Brasil, Lavazza Top Class Filtro100, Lavazza La Reserva de Tierra Colombia",
+        "description": "Three carefully selected blends of high qualiy arabica coffee. This box contains Armonico, Qualita Oro and Grand Crema.",
         "price": 50,
         "category": 2,
         "rating": 4.8,
-        "image": "img/products/arabicacoffeebeans.png",
-        "image_url": "https://www.coffeeclick.ie/wp-content/uploads/2019/02/Ethical-Coffee-Beans-Variety-Box-5-300x300.png"
+        "image": "img/products/arabicacoffeebeans.jpg",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lavazza.it%2Fcontent%2Fdam%2Flavazza%2Fproducts%2Fcaffe%2Fintl%2Fus%2Fimg-categorie%2Flavazza-category-whole-beans-thumb.jpg&f=1&nofb=1"
       }
     },
     {
