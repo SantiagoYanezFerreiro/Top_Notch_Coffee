@@ -1,4 +1,4 @@
-Hello {{ order.full_name }}!
+Hello {{ order.full_name }}! <br>
 
 This is a confirmation of your order at Top Notch Coffee. Your order information is below:
 
