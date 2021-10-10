@@ -22,7 +22,7 @@ def contact(request):
             message = contact_form.cleaned_data['message']
             try:
                 send_mail(
-                    # to capture the user email it's displayd in subject field and can be responded to
+                    # Get User Email
                     f"Message from {full_name}, <{user_email}>", 
                     message,
                     user_email,
@@ -33,8 +33,7 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
     else:
-        # Attempt to prefill full_name and email fields for logged in user, if they have
-        # this information saved in the profile
+        # Prefill user details if they have a profile
         if request.user.is_authenticated:
             userprofile = UserProfile.objects.get(user=request.user)
             user_email = userprofile.user.email
@@ -54,7 +53,6 @@ def contact(request):
 
 def contact_thankyou(request):
     """
-    A view to return contact_thankyou page in order \
-        to inform user that the message was succseddfully sent
+    return thank you page to confirm users that we successfully received their information
     """
     return render(request, 'contact/contact_thankyou.html')

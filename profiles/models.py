@@ -8,8 +8,7 @@ from django_countries.fields import CountryField
 
 class UserProfile(models.Model):
     """
-    User Profile model is used for maintaining default
-    delivery information and storing order history
+    User Profile Model Fields Definition
     """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     profile_full_name = models.CharField(max_length=70, null=True, blank=True)
@@ -33,10 +32,7 @@ class UserProfile(models.Model):
 
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
-    """
-    Create or update the user profile
-    """
     if created:
         UserProfile.objects.create(user=instance)
-    # Existing users: just save the profile
+    # Existings users save the profile
     instance.userprofile.save()
