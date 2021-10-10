@@ -75,11 +75,12 @@ h1{
 
 .img-fluid{
     width: 800px;
-    height:600px;
+    height:450px;
 }
 
 .coffeeimg9{
-    min-width:600px;
+    width:600px;
+    height:600px;
 }
 
 .text-black {
@@ -311,6 +312,7 @@ input[name='q']::placeholder {
 
 .form-img{
     width:600px;
+    height:550px;
 }
 .contact-form{
     margin-left:25%;
@@ -381,7 +383,42 @@ input[name='q']::placeholder {
 
 .login, .signup{
     margin: 0 auto; 
-    width:250px;
+    width:350px;
+}
+
+
+.login label, .signup label{
+    display:inline-block;
+    width: 130px;
+    text-align: left;
+    font-size:16px;
+    font-weight:600;
+    color:black;
+}
+
+.login input, .signup input{
+    padding: 10px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #ddd;
+}
+
+.signup button, .login button{
+    width:150px;
+    height:40px;
+    background-color:black;
+    color:white;
+    text-transform:uppercase;
+    display:inline-block;
+}
+
+.secondaryAction,.primaryAction{
+    margin-right:40px;
+    margin-bottom:25px;
+    display:inline-block;
+    width:130px;
+    text-align:center;
 }
 
 /* Allauth form formatting 
