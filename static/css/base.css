@@ -73,6 +73,20 @@ h1{
     color: white;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .img-fluid{
     width: 800px;
     height:450px;
@@ -110,20 +124,6 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
 input[name='q']::placeholder {
     color: #aab7c4;
 }
@@ -146,7 +146,7 @@ input[name='q']::placeholder {
 }
 
 
-/* Landing page - hero image section*/
+/* Landing page - Home Page - Main Image section*/
 
 .hero-image {
     height: 80vh;
@@ -256,13 +256,8 @@ input[name='q']::placeholder {
     height:100px;
 }
 
-/*Landing page - Tea ceremony section*/
-.tea-ceremony-landing-container {
-    background-color: var(--black);
-}
-
 /*Landing page - Tea and teaware section*/
-.tea-and-teaware-landing-container {
+.coffee-and-coffeeware-landing-container {
     background-color: var(--white);
 }
 
@@ -381,6 +376,8 @@ input[name='q']::placeholder {
     height: 500px;
 }
 
+/* AllAuth Forms - Login, SingUp, Logout,etc */
+
 .login, .signup{
     margin: 0 auto; 
     width:350px;
@@ -421,63 +418,6 @@ input[name='q']::placeholder {
     text-align:center;
 }
 
-/* Allauth form formatting 
-
-
-.allauth-form-inner-content p {
-    margin-top: 1.5rem; 
-    color: #6c757d;
-    margin-bottom:200px;
-}
-
-.allauth-form-inner-content input {
-    border-color: #000;
-    border-radius: 0;
-}
-
-.allauth-form-inner-content label:not([for='id_remember']) {
-    display: none;
-}
-
-.allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
-}
-
-.allauth-form-inner-content button,
-.allauth-form-inner-content input[type='submit'] {
-
-	display: inline-block;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0;
-
-
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: #222;
-    border-color: #222;
-}
-
-.allauth-form-inner-content a {
-	color: #17a2b8; 
-}
-*/
-
 /* Product Form */
 
 .btn-file {
@@ -506,7 +446,7 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-/*MEDIA QUERIES*/
+/* -------------------------------- Media Queries */
 /*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
 
 @media only screen and (max-width:1600px) {
@@ -517,46 +457,6 @@ input[name='q']::placeholder {
         margin-right:10px;
 }
 }
-
-
-@media only screen and (max-width:1200px) {
-    
-    }
-
-  
-    /*Small tablets to big tablets - from 768px to 1023px  */
-    
-  @media only screen and (max-width:1023px) {
-    
-    }
-
-  
-  @media only screen and (max-width:900px) {
-     
-  }
-
-  
-    /*Small phones to small tablets - from 481 to 767 px  */
-    
-  @media only screen and (max-width: 767px) {
-    }
-  
-  
-  
-  /*Small phones - from 0 to 480 px  */
-  @media only screen and (max-width:480px) {
-  
-  }
-  
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
 
 @media (max-width: 1300px) {
     .container {
@@ -596,21 +496,14 @@ input[name='q']::placeholder {
     }
 }
 
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 160px;
-    }
+@media only screen and (max-width:1200px) {
+    
 }
 
+/*Small tablets to big tablets - from 768px to 1023px  */
+@media only screen and (max-width:1023px) {
+
+}
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
@@ -659,22 +552,59 @@ input[name='q']::placeholder {
     .landing-text {
         left:25%;
     }
-    
 }
-    @media (max-width: 800px) {
+
+
+@media only screen and (max-width:900px) {
+ 
+}
+
+@media (max-width: 800px) {
     .landing-text {
         left:15%;
     }
+}
 
-    @media (max-width: 600px) {
-          .landing-text {
-              left:10%;
-          }
-          .landing-text h5, .landing-text a{
-              font-size:120%;
-          }
-          .hero-image .sub-heading{
-              font-size:150%;
-          }
-        }
+
+/*Small phones to small tablets - from 481 to 767 px  */
+@media only screen and (max-width: 767px) {
+}
+
+@media (max-width: 600px) {
+    .landing-text {
+        left:10%;
+    }
+    .landing-text h5, .landing-text a{
+        font-size:120%;
+    }
+    .hero-image .sub-heading{
+        font-size:150%;
+    }
+}
+
+/*Small phones - from 0 to 480 px  */
+@media only screen and (max-width:480px) {
+
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 160px;
+    }
+}
 }
