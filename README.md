@@ -75,7 +75,7 @@ Explore the misterious and amazing world of coffee with us!
 
 ### Imagery
 
-I used a lot of Beverages images, mainly to make the website look better and as background for the content.
+Used FontAwesome and mainly Unsplash.com for this purpose.
 
 ## Wireframes
 
@@ -115,6 +115,16 @@ I have included all Wireframes in another separate file:
 
 ## Features to Implement in the future
 
+There are a couple of extra things that I think would make the website more appealing and the experience more complete for the visitors:
+
+• User Reviews: User should have the option to add a star-based review with related comments and images.
+
+• A more complete profile page where users can add personal Info and have a profile picture.
+
+• A coffee club with the possibility of getting a monthly suscription and receive special products delivered home.
+
+• The possibility to rank customers based on their spending and use email marketing to send special offers to loyal customers.
+
 
 ## Information architechture
 ### Database Choice
@@ -138,7 +148,49 @@ For production, a PostgreSQL database is provided by Heroku as an add-on.
 
 • **JavaScript**
 
-• **Django**, **Python**
+• **Django**, **Jinja**, 
+
+• **Python Modules used**:
+asgiref==3.4.1
+
+boto3==1.18.48
+
+botocore==1.21.48
+
+dj-database-url==0.5.0
+
+Django==3.2.7
+
+django-allauth==0.41.0
+
+django-countries==7.2.1
+
+django-crispy-forms==1.12.0
+
+django-storages==1.11.1
+
+gunicorn==20.1.0
+
+jmespath==0.10.0
+oauthlib==3.1.1
+
+
+Pillow==8.3.2
+
+psycopg2==2.9.1
+
+psycopg2-binary==2.9.1
+
+python3-openid==3.2.0
+
+pytz==2021.1
+
+requests-oauthlib==1.3.0
+s3transfer==0.5.0
+
+sqlparse==0.4.2
+
+stripe==2.60.0
 
 ### Frameworks, Libraries & Programs Used
 
@@ -148,7 +200,17 @@ For production, a PostgreSQL database is provided by Heroku as an add-on.
 
 • **FontAwesome**: Great Icons Resource.
 
-• **Auto-Prefixer**: Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
+• **Google-Fonts**: Great Icons Resource.
+
+• **Psycopg2**: -  Enables PostgreSQL to function with Django.
+
+• **Stripe**: Allows visitor to pay online.
+
+• **Auto-Prefixer**: Website based on Visual Studio Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
+
+• **Django Crispy Forms**: Used to style Django Forms.
+
+• **PIP**: To install all necessary packages and tools
 
 • **Unsplash**: Website that offers high quality free images.
 
@@ -158,28 +220,48 @@ For production, a PostgreSQL database is provided by Heroku as an add-on.
 
 • **Balsamiq Wireframes**: Great Wireframing Software.
 
-• **EmailJS**: To make the form work and receive visitors requests.
+• **SQLite**: For the development database.
 
+• **PostgreSQL**: Used in the production database.
 
 ## Testing
-The code was validated with the W3C Markup, W3C CSS and JSHint Validator Services to look for syntax errors.
-The website passed all tests succesfully with no errors. An excel file with info about the tests performed was included in the repository.
 
-Testing File Attached
+### Validators
+
+#### HTML
+
+The HTML code was tested through W3C Markup Validation Service. Revealed several issues regarding Jinja templating, since this format is not recognised by the validator. 
+
+#### CSS
+
+The CSS code was tested through W3C Markup Validation Service. Since it does not recognize all CSS variables (colours and fonts variables were used), there were several Parse Errors found that could be ignored.
+
+#### JavaScript
+
+The JS code was tested through JSHint Validation Service. 
+
+#### Python
+
+All the Python files were tested through PEP8 Online validator and further changes were made to make the code PEP8 compliant where possible.
+
+An excel file with info about the tests performed was included in the repository. Testing File Attached
 
 ### High Level Test Classes
 ![Test Results File](media/img/content/TestResults.PNG)
 
-### User Story Testing 
-#### Visitors Goals
-
 ### Test Results
 
 ![Test Results File](media/files/TestResultsMS4.xlsx)
-
 Complete Test Info can be found here ()
 
 It is an .xlsx file and will a compatible program like excel or google docs to open the file.
+
+### Compatibility and Responsiveness
+
+Mentioned in the test cases excel file. The site was checked acrros multiple screen sizes (big screens, laptops, tablets, phones, small phones, etc) and browsers (Chrome, Edge and Firefox).
+
+### User Story Testing 
+#### Visitors Goals
 
 ## Issues & Problems found during Testing
 
@@ -201,6 +283,8 @@ It is an .xlsx file and will a compatible program like excel or google docs to o
 
 ## Deployment
 
+The website was developed to Heroku, while using Gitpod a a development environment and commiting all changes to GitHub., committed to git and pushed to GitHub. 
+
 ### GitHub Pages
 
 The project was developed using GitPod, committed to git and pushed to GitHub. It was then deployed with Github pages from its GitHub repository following these steps:
@@ -212,6 +296,54 @@ The project was developed using GitPod, committed to git and pushed to GitHub. I
 •	Scroll down to the GitHub Pages section and click Master Branch. With this, the website is deployed.
 
 •	Go to the GitHub pages section to get the website link.
+
+# Deployment
+
+
+Gitpod:
+    Create env.py file
+
+    Add env.py file to gitignore
+
+    Add details to env.py file:
+
+      import os
+      
+    import os  
+    os.environ["DEVELOPMENT"] = "True"    
+    os.environ["SECRET_KEY"] = "<Your Secret key>"    
+    os.environ["STRIPE_PUBLIC_KEY"] = "<Your Stripe Public key>"    
+    os.environ["STRIPE_SECRET_KEY"] = "<Your Stripe Secret key>"    
+    os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH_Secret key>"     
+
+    In terminal create a requirements.txt file by typing pip3 freeze --local > requirements.txt
+
+    In terminal create a Procfile by typing python app.py > Procfile
+
+    In terminal add files, commit and push changes to Github
+
+Deploy a project to Heroku:
+
+    Create a Heroku account and Log in on it
+    From dashboard click new > create new app and add the desired name.
+    When connected, click on settings > Config Vars and add key and value pairs. Variables shoud be the same as in the env.py file
+    From Deploy open Automatic deployment and Connect to GitHub section, then click on github username and repository name
+    Heroku will receive all info from your Github repository. Wait for the succesfully completed message.
+    Click Open App from top right corner to view the app in a new window.
+
+## Cloning
+
+• Type ‘cd’ in the terminal followed by the desired directory name where 
+it will get cloned.
+
+• Click on ‘Code’ (the green drop-down button on the top of the page).
+
+• Copy the last link and type and type ‘git clone’ followed by the copied name.
+
+## Content
+• Social Media Icons are from Font Awesome.
+
+• Bootstrap Navbar Documentation helped me to create the navigation menu.
 
 ### Forking
 
