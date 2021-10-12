@@ -227,6 +227,11 @@ input[name='q']::placeholder {
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: black;
+    color:orange;
+}
+
 /* Landing page - main about section*/
 .landing-paragraph {
     font-family: var(--open-sans);
@@ -500,13 +505,14 @@ input[name='q']::placeholder {
     }
     .hero-image {
         height: 50vh;
+        margin-top: -100px;
     }
     .landing-text {
         top: 30%;
     }
 
     .header-container{
-        margin-top:200px;
+        margin-top:210px;
     }
     
     .landing-text {
@@ -536,6 +542,9 @@ input[name='q']::placeholder {
         width: 500px;
         height:500px;
     }
+    .photo-carrousel{
+        height:600px;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -549,7 +558,7 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 0px;
+        
     }
 
     body {
@@ -598,7 +607,7 @@ input[name='q']::placeholder {
 
 @media (max-width: 800px) {
     .header-container {
-        margin-top: 120px;
+        
     }
 }
 
