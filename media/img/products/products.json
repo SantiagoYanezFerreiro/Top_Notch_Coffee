@@ -32,7 +32,7 @@
       "model": "products.product",
       "fields": {
         "sku": "AT123458",
-        "name": "Colombia - San Pancho. Three Fools Coffee",
+        "name": "Colombia - coffee-and-coffeeware-landing. Three Fools Coffee",
         "description": "The most popular coffee from one of the top high quality producing countries. Grown in an archeological UNESCO world heritage site.  Coffee farming within the region is overwhelmingly small-scale. Approximately 80% of producers from the region farm coffee on less than 3 hectares of land. These small farms are tended by individual families with labour only very rarely being contracted out. All cherries are hand-picked, which leads to more thorough and intensive management practices and great pride in the final product .",
         "price": 15.00,
         "category": 1,
