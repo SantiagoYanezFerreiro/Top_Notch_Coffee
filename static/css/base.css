@@ -213,11 +213,6 @@ input[name='q']::placeholder {
     width: 15rem;
 }
 
-.companyinfo-button{
-    position:absolute;
-    left:30%;
-}
-
 .landing-button:hover {
     background-color: var(--darkgreen);
     color: var(--white);
@@ -375,6 +370,10 @@ input[name='q']::placeholder {
     height:350px;
 }
 
+.container-fluid-productdetail{
+    margin-top:-100px;
+}
+
 /* Convenience classes - colors copied from Bootstrap ELIMINATE*/
 .arrow-primary {
     border-bottom-color: #007bff !important;
@@ -504,9 +503,7 @@ input[name='q']::placeholder {
     .container {
       max-width: 80%;
     }
-    .hero-image {
-        height: 50vh;
-    }
+
     .landing-text {
         top: 30%;
     }
@@ -545,6 +542,9 @@ input[name='q']::placeholder {
     .photo-carrousel{
         height:600px;
     }
+    .container-fluid-productdetail {
+        margin-top: -150px;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -553,7 +553,12 @@ input[name='q']::placeholder {
 
 /*Small tablets to big tablets - from 768px to 1023px  */
 @media only screen and (max-width:1023px) { 
-    
+    .hero-image {
+        height: 60vh;
+    }
+    .container-fluid-productdetail {
+        margin-top: -200px;
+    }
 }
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
@@ -604,11 +609,11 @@ input[name='q']::placeholder {
 
 @media (max-width: 800px) {
     .header-container{
-        margin-top:100px;
+        margin-top:150px;
     }
 
     .coffeeimg9{
-        padding:0px;
+        margin-top:30px;
     }
 }
 
@@ -621,12 +626,45 @@ input[name='q']::placeholder {
     .landing-text {
        
     }
+    
     .landing-text h5, .landing-text a{
         font-size:120%;
     }
     .hero-image .sub-heading{
-        font-size:150%;
+        font-size:120%;
     }
+    .landing-text {
+        top: 40%;
+    }
+    h1, h2{
+        font-size:140%;
+    }
+    .landing-main-heading {
+        font-size: 2.2rem;
+    }
+    .form-img{
+        height:500px;
+    }
+    .our-mission img, .our-principles img, .who-we-are img{
+        height:350px;
+    }
+    .photo-carrousel{
+        height:500px;
+    }
+    .companyinfo-button, .button-shop {
+        font-size:115%;
+        width: 12rem;
+    }
+    .our-mission h3, .our-principles h3, .who-we-are h3{
+        font-size: 22px;
+        margin-bottom: 30px;
+        margin-top:15px;
+    }
+
+    .main-heading-aboutus{
+        font-size:30px;
+    }
+    
 }
 
 /*Small phones - from 0 to 480 px  */
