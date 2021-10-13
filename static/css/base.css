@@ -6,12 +6,14 @@ body {
     background: url('/media/img/content/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #fab162;
     font-family: 'Lato';
+    background-color:#191919;
 }
 
 .header{
     margin-bottom:300px;
+    background-color:#191919;
 }
 
 h1{
@@ -122,8 +124,12 @@ h1{
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
 	z-index: -1;
+}
+
+a {
+    color: #fab162;
+    text-decoration: none;
 }
 
 a.category-badge > span.badge:hover {
@@ -225,7 +231,7 @@ input[name='q']::placeholder {
 
 .btn:hover{
     background-color: black;
-    color:orange;
+    color:#fab162;;
 }
 
 /* Landing page - main about section*/
@@ -264,6 +270,7 @@ input[name='q']::placeholder {
     background: var(--white);
     font-family: var(--sawarabi-mincho);
     border: 2px solid var(--black);
+    color:#191919;
 }
 
 .span-benefits-container {
@@ -279,15 +286,15 @@ input[name='q']::placeholder {
     font-size: 1.1rem;
 }
 
+.benefits-section h4, .benefits-section p{
+    color:#191919;
+}
+
 .benefits-section img{
     width:100px;
     height:100px;
 }
 
-/*Landing page - Coffee Section */
-.coffee-and-coffeeware-landing-container {
-    background-color: var(--white);
-}
 
 /*Carrousel*/
 .photo-carrousel{
@@ -366,6 +373,12 @@ input[name='q']::placeholder {
 }
 
 .product-img{
+    padding:0px;
+    width: 450px;
+    height:350px;
+}
+
+.card{
     width: 450px;
     height:350px;
 }
