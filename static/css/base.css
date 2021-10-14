@@ -6,7 +6,7 @@ body {
     background: url('/media/img/content/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #fab162;
+    color: white;
     font-family: 'Lato';
     background-color:#191919;
 }
@@ -42,6 +42,18 @@ h1{
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+}
+
+.logo-container img{
+    height:120px;
+}
+
+.topnav{
+    height:120px;
+}
+
+.navbar-container{
+    margin-top:-30px;
 }
 
 .shop-now-button {
@@ -101,14 +113,23 @@ h1{
     height:450px;
 }
 
+.product-container .img-fluid{
+    padding-top:10px;
+    width:450px;
+    height:400px;
+}
+
+.container-fluid-productdetail .product-img{
+    width:500px;
+    height:500px;
+}
+
 .coffeeimg9{
     width:600px;
     height:600px;
 }
 
-.text-black {
-    color: #000 !important;
-}
+
 
 .border-black {
     border: 1px solid black !important;
@@ -128,13 +149,21 @@ h1{
 }
 
 a {
-    color: #fab162;
+    color: #fff;
     text-decoration: none;
 }
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
+}
+
+.text-black {
+    color: #191919 !important;
+}
+
+.text-white{
+    color:#fff !important;
 }
 
 input[name='q']::-webkit-input-placeholder {
@@ -209,20 +238,31 @@ input[name='q']::placeholder {
     font-size: 3rem;
 }
 
-.landing-button, .companyinfo-button, .button-shop {
-    background-color: black;
+.landing-button, .companyinfo-button, .button-shop{
+    background-color: #fab162;
     color: var(--white);
     font-family: var(--sawarabi-mincho);
-    color:white;
+    color:#191919;
     font-size:120%;
     height: 3.5rem;
     width: 15rem;
 }
 
-.landing-button:hover {
+.landing-button:hover{
     background-color: var(--darkgreen);
     color: var(--white);
 }
+
+.product-details-button{
+    background-color: #fab162;
+    color:#191919;
+}
+
+.product-details-button:hover{
+    background-color: #fab162;
+    color:#fff;
+}
+
 
 .update-cart-btn,
 .remove-button {
@@ -230,8 +270,8 @@ input[name='q']::placeholder {
 }
 
 .btn:hover{
-    background-color: black;
-    color:#fab162;;
+    color:white;
+    background-color: #fab162;
 }
 
 /* Landing page - main about section*/
@@ -320,7 +360,8 @@ input[name='q']::placeholder {
 }
 
 .carousel-control-prev, .carousel-control-next{
-    color:black;
+    color:#fab162;
+    font-size:150%;
 }
 
 .carousel-item-review {
@@ -349,6 +390,13 @@ input[name='q']::placeholder {
     margin-right:25%;
 }
 
+/* Footer */
+
+.footer-container a, .footer-container p, .footer-container h4{
+    color: #191919 !important;
+
+}
+
 /* About Us */
 
 .our-mission img, .our-principles img, .who-we-are img{
@@ -372,19 +420,13 @@ input[name='q']::placeholder {
     margin-top:180px;
 }
 
-.product-img{
-    padding:0px;
-    width: 450px;
-    height:350px;
-}
-
-.card{
-    width: 450px;
-    height:350px;
-}
 
 .container-fluid-productdetail{
     margin-top:-100px;
+}
+
+.w-40{
+    width:40%;
 }
 
 /* Convenience classes - colors copied from Bootstrap ELIMINATE*/
