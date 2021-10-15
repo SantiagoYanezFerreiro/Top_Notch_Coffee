@@ -313,8 +313,6 @@ it will get cloned.
 
 •	Copy the last link and type and type ‘git clone’ followed by the copied name.
 
-## Credits
-
 ## Code
 
 Used the Bootstrap library to make the site responsive. Also took advantages of its built-in classes, for example to make the nav menu responsive.
