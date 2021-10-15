@@ -400,7 +400,7 @@ input[name='q']::placeholder {
 }
 
 /* Checkout */
-.checkout-container, .checkout-success-container, .container-product-management, .container-product-management-edit{
+.checkout-container, .checkout-success-container, .container-product-management, .container-product-management-edit, .container-profile{
     margin-top:-100px;
 }
 
