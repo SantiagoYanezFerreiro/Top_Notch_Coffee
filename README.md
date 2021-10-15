@@ -81,7 +81,7 @@ I have included all Wireframes in another separate file:
 
 ### Modifications from the Original Wireframes
 
-I decided not to include the events page since I think the core of the business are the products themselves. 
+I decided not to include the events page since I think the core of the business are the products themselves. Also modified the landing page quite a lot since I think it looks simpler and more stylish the way it is now.
 
 ## Features
 
@@ -204,8 +204,6 @@ The JS code was tested through JSHint Validation Service.
 
 All the Python files were tested through PEP8 Online validator and further changes were made to make the code PEP8 compliant where possible.
 
-An excel file with info about the tests performed was included in the repository. Testing File Attached
-
 ### High Level Test Classes
 ![Test Results File](media/img/content/TestResults.PNG)
 
@@ -236,8 +234,9 @@ Mentioned in the test cases excel file. The site was checked acrros multiple scr
 
 #### Known Bugs  & Problems 
 
-•	I struggled dealing with so many keys that shouldnt be exposed publicly. There was an issue and my env.py file was exposed temporally on the public repo involuntariy. Managed to sorted it out after a while and hide it.
-•   Also accidentally pushed my Database_URL on the repo. I initally didn't know that it was supposed to be hidden as well.
+•	There was an issue and my env.py file was exposed temporally on the public repo involuntariy. Managed to sorted it out after a while and hide it. Therefore several keys were exposed publicly.
+
+• Also accidentally pushed my Database_URL on the repo. I initally didn't know that it was supposed to be hidden as well.
 
 ## Deployment
 
@@ -336,7 +335,7 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 ## Acknowledgements
 •	My mentor Narender Singh, was of great help in this project and introduced me to good changes and techniques to implement on it.
 
-•	I checked projects from other students to get an idea of the scope of the project and as inspiration for my project.
+• The boutique Ado and other students projects where a good base to work on this project, get inspiration for it and to sort out how to implement several features I needed.
 
 ## Disclaimer
 This is a fictional company and was created as my MS4 Code Institute Project.
