@@ -8,9 +8,8 @@
 
 Top Notch Coffee
 
-Coffee connects people, calms the mind, brings harmony and balance
-Top Notch Coffee is an e-commerce site that sells the best coffee beans, infusions & cakes in town.
-In Top Notch Coffee you can visit one of our coffee ceremonies, book an event for your company and buy nice fresh tea and coffeeware delivered straight to your doors!
+Coffee connects people, calms the mind and brings harmony and balance.
+Top Notch Coffee is an e-commerce site that sells the best coffee beans in town.
 Explore the misterious and amazing world of coffee with us!
 
 ## User Experience
@@ -65,13 +64,13 @@ Explore the misterious and amazing world of coffee with us!
 
 • The company wants to be able to update/delete/create products.
 
-## Design
-
 ### Colour Scheme
 
+• The main colors used on the site are #white, #191919 and #fab162.
 
 ### Typography
 
+The Lato font is the main font of the website with Arial and sans-seriff as fallback. I opted for Lato because it's a sans-seriff that looks stylish and is easy to read.
 
 ### Imagery
 
@@ -100,13 +99,13 @@ I have included all Wireframes in another separate file:
 
 •	**Cart** – Summary of the user order containing all selected products with their respective info - mainly the price, name and the product picture .
 
-•   **Checkout** – Contains an order summary including general info. Checkout form to confirm Personal details, Payment and Billing/Shipping Info.
+• **Checkout** – Contains an order summary including general info. Checkout form to confirm Personal details, Payment and Billing/Shipping Info.
 
-•   **Checkout Success** – A Thank you message that is displayed after having succesfully confirmed the order. Also contains a summary of the info so that customers can confirm all info is correct.
+• **Checkout Success** – A Thank you message that is displayed after having succesfully confirmed the order. Also contains a summary of the info so that customers can confirm all info is correct.
 
-•   **Profile Page** – Contains Info of the user: Personal Details, Shipping Info and Billing Details. Also let them change the password and their details.
+• **Profile Page** – Contains Info of the user: Personal Details, Shipping Info and Billing Details. Also let them change the password and their details.
 
-•   **Passwort reset** – Users can request a password reset. They will be sent a link to their email with all the necessary info.
+• **Passwort reset** – Users can request a password reset. They will be sent a link to their email with all the necessary info.
 
 •	**Footer** – Social Media Links and logo to go back to the home page.
 
@@ -115,7 +114,7 @@ I have included all Wireframes in another separate file:
 
 ## Features to Implement in the future
 
-There are a couple of extra things that I think would make the website more appealing and the experience more complete for the visitors:
+There are a couple of extra things that I think would make the website more appealing and the visitors' experience more complete:
 
 • User Reviews: User should have the option to add a star-based review with related comments and images.
 
@@ -221,10 +220,8 @@ It is an .xlsx file and will a compatible program like excel or google docs to o
 
 Mentioned in the test cases excel file. The site was checked acrros multiple screen sizes (big screens, laptops, tablets, phones, small phones, etc) and browsers (Chrome, Edge and Firefox).
 
-### User Story Testing 
-#### Visitors Goals
 
-## Issues & Problems found during Testing
+### Issues & Problems found during Testing
 
 #### Further Testing
 
