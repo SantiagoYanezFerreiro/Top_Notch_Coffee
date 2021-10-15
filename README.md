@@ -4,7 +4,7 @@
 
 [Live Page Link](https://topnotchcoffee.herokuapp.com/)
 
-![Top notch Coffee Responsive Design]()
+![Top notch Coffee Responsive Design](media/img/content/ResponsiveDesign.PNG)
 
 Top Notch Coffee
 
