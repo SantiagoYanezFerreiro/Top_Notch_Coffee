@@ -6,8 +6,6 @@
 
 ![Top notch Coffee Responsive Design](media/img/content/ResponsiveDesign.PNG)
 
-Top Notch Coffee
-
 Coffee connects people, calms the mind and brings harmony and balance.
 Top Notch Coffee is an e-commerce site that sells the best coffee beans in town.
 Explore the misterious and amazing world of coffee with us!
@@ -82,6 +80,8 @@ I have included all Wireframes in another separate file:
 ![Wireframes File](ReadmeFiles/wireframes)
 
 ### Modifications from the Original Wireframes
+
+I decided not to include the events page since I think the core of the business are the products themselves. 
 
 ## Features
 
