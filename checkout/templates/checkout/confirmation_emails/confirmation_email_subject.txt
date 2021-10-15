@@ -1,1 +1,1 @@
-Top Notch CoffeeConfirmation for Order Number {{ order.order_number }}
+Top Notch Coffee for Order Number {{ order.order_number }}

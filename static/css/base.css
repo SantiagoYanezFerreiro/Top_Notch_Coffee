@@ -249,9 +249,8 @@ input[name='q']::placeholder {
     font-size: 3rem;
 }
 
-.landing-button, .companyinfo-button, .button-shop, .bag-button{
+.landing-button, .companyinfo-button, .button-shop, .bag-button, .contact-form-btn{
     background-color: #fab162;
-    color: var(--white);
     font-family: var(--sawarabi-mincho);
     color:#191919;
     font-size:120%;
@@ -400,6 +399,11 @@ input[name='q']::placeholder {
     height:250px;
 }
 
+/* Checkout */
+.checkout-container, .checkout-success-container{
+    margin-top:-100px;
+}
+
 /* About Page */
 
 .our-principles li, .our-mission li, .our-mission p, .who-we-are p {
@@ -412,8 +416,8 @@ input[name='q']::placeholder {
 }
 
 .our-mission img, .our-principles img, .who-we-are img{
-    width: 600px;
-    height:600px;
+    width: 500px;
+    height:500px;
 }
 
 /* Contact Page */
@@ -431,7 +435,19 @@ input[name='q']::placeholder {
 
 .footer-container a, .footer-container p, .footer-container h4{
     color: #191919 !important;
+}
 
+.footer-links, .footer-copyright,.footer-quicklinks{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+footer{
+    height: 100px;
+}
+
+footer .container{
+    margin-bottom:20px;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -508,6 +524,7 @@ input[name='q']::placeholder {
 .login, .signup{
     margin: 0 auto; 
     width:350px;
+    margin-bottom:20px;
 }
 
 
@@ -517,7 +534,7 @@ input[name='q']::placeholder {
     text-align: left;
     font-size:16px;
     font-weight:600;
-    color:black;
+    color:white;
 }
 
 .login input, .signup input{
@@ -587,6 +604,10 @@ input[name='q']::placeholder {
 @media (max-width: 1300px) {
     .container {
       max-width: 80%;
+    }
+
+    .navbar-container {
+        margin-top: 0px;
     }
 
     .landing-text {

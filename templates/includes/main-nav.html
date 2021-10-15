@@ -35,7 +35,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Tea & Others
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -45,7 +45,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -55,13 +55,18 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
+            <a class="logo-font font-weight-bold nav-link text-black mr-5 {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
                 href="{% url 'contact' %}">Contact
             </a>
         </li>
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
+            <a class="logo-font font-weight-bold nav-link text-black mr-5 {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
                 href="{% url 'about' %}">About Us
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5 {% if request.get_full_path == '/contact/' %}active-nav-link{% endif %}" 
+                href="{% url 'home' %}">Home
             </a>
         </li>
     </ul>
