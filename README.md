@@ -302,8 +302,6 @@ it will get cloned.
 
 • Bootstrap Navbar Documentation helped me to create the navigation menu.
 
-### Forking
-
 ### Cloning
 
 •	Type ‘cd’ in the terminal followed by the desired directory name where 
