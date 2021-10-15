@@ -19,7 +19,7 @@ body {
 h1{
     margin-top:30px;
 }
-/* from Bulma */
+
 .icon {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -129,7 +129,10 @@ h1{
     height:600px;
 }
 
-
+.bag-product-image{
+    width:300px;
+    height:200px;
+}
 
 .border-black {
     border: 1px solid black !important;
@@ -137,6 +140,10 @@ h1{
 
 .bg-black {
     background: #000 !important;
+}
+
+.bg-brown{
+    background:#fab162;
 }
 
 .overlay {
@@ -156,6 +163,10 @@ a {
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
+}
+
+.table{
+    color:#fff;
 }
 
 .text-black {
@@ -238,7 +249,7 @@ input[name='q']::placeholder {
     font-size: 3rem;
 }
 
-.landing-button, .companyinfo-button, .button-shop{
+.landing-button, .companyinfo-button, .button-shop, .bag-button{
     background-color: #fab162;
     color: var(--white);
     font-family: var(--sawarabi-mincho);
@@ -248,9 +259,26 @@ input[name='q']::placeholder {
     width: 15rem;
 }
 
-.landing-button:hover{
-    background-color: var(--darkgreen);
+.bag-button{
+    width: 14rem;
+    font-size:100%;
+    height:3rem;
+}
+
+.btn:hover{
+    color:white;
+    background-color: #fab162;
+}
+
+
+.landing-button{
+    background-color: #191919;
     color: var(--white);
+}
+
+.landing-button:hover{
+    background-color: #191919;
+    color: #fab162;
 }
 
 .product-details-button{
@@ -263,16 +291,6 @@ input[name='q']::placeholder {
     color:#fff;
 }
 
-
-.update-cart-btn,
-.remove-button {
-    cursor: pointer;
-}
-
-.btn:hover{
-    color:white;
-    background-color: #fab162;
-}
 
 /* Landing page - main about section*/
 .landing-paragraph {
@@ -338,7 +356,7 @@ input[name='q']::placeholder {
 
 /*Carrousel*/
 .photo-carrousel{
-    height:950px;
+    height:600px;
 }
 /*Landing page - reviews section*/
 .review-user-avatar {
@@ -368,6 +386,20 @@ input[name='q']::placeholder {
     padding: 0 10%;
 }
 
+/* Cart */
+
+.update-cart-btn,
+.remove-button {
+    cursor: pointer;
+}
+
+/* Shopping Bag */
+
+.shopping-bag-container img{
+    width:300px;
+    height:250px;
+}
+
 /* About Page */
 
 .our-principles li, .our-mission li, .our-mission p, .who-we-are p {
@@ -377,6 +409,11 @@ input[name='q']::placeholder {
 .our-mission h3, .our-principles h3, .who-we-are h3{
     font-size:35px;
     margin-top:-30px;
+}
+
+.our-mission img, .our-principles img, .who-we-are img{
+    width: 600px;
+    height:600px;
 }
 
 /* Contact Page */
@@ -397,12 +434,6 @@ input[name='q']::placeholder {
 
 }
 
-/* About Us */
-
-.our-mission img, .our-principles img, .who-we-are img{
-    width: 600px;
-    height:600px;
-}
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -419,7 +450,6 @@ input[name='q']::placeholder {
 .header-container{
     margin-top:180px;
 }
-
 
 .container-fluid-productdetail{
     margin-top:-100px;
@@ -447,7 +477,7 @@ input[name='q']::placeholder {
 }
 
 .arrow-warning {
-    border-bottom-color: #ffc107 !important;
+    border-bottom-color: #fab162 !important;
 }
 
 .arrow-info {
@@ -567,9 +597,6 @@ input[name='q']::placeholder {
         margin-top:200px;
     }   
     
-    .landing-text {
-        
-    }
     .landing-text h5, .landing-text a{
         font-size:120%;
     }
@@ -595,7 +622,7 @@ input[name='q']::placeholder {
         height:500px;
     }
     .photo-carrousel{
-        height:600px;
+        height:500px;
     }
     .container-fluid-productdetail {
         margin-top: -150px;
@@ -657,9 +684,6 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-    .landing-text {
-        
-    }
 }
 
 @media (max-width: 800px) {
@@ -678,10 +702,6 @@ input[name='q']::placeholder {
 }
 
 @media (max-width: 600px) {
-    .landing-text {
-       
-    }
-    
     .landing-text h5, .landing-text a{
         font-size:120%;
     }
@@ -704,7 +724,7 @@ input[name='q']::placeholder {
         height:350px;
     }
     .photo-carrousel{
-        height:500px;
+        height:400px;
     }
     .companyinfo-button, .button-shop {
         font-size:115%;
